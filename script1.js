@@ -10,33 +10,17 @@
 
 
 
-// adds 1 
 
-// += 1 or name of variable++
-
- //subtracts 1
-
-// -= 1 or name of variable---
-
-
-
-
+// This statement works 
 for (let triangle = '#'; triangle <= '####'; triangle += '#') {
     console.log(triangle);
 }
 
-for ( let triangle2 = '####'; triangle2 > '###'; triangle2 -= '#') {
-    console.log(triangle2);   //second section doesnt work
-}
+
+
+// for ( let triangle2 = '####'; triangle2 > '###'; triangle2 -= '#') {
+//     console.log(triangle2);   //second section doesnt work
+// }
 
 // does not work
 
-/*let triangle = '#';
-
-if (triangle <= '####') {
-    triangle += '#';
-} 
-else if (triangle >= '####') {
-    triangle -= '#';
-}
-  console.log(triangle); */
