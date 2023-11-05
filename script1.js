@@ -21,10 +21,13 @@
 
 
 
-// for (let triangle = '#'; triangle <= '####'; triangle += '#') {
-//     console.log(triangle);
-// }
+for (let triangle = '#'; triangle <= '####'; triangle += '#') {
+    console.log(triangle);
+}
 
+for ( let triangle2 = '#####'; triangle2 > '####'; triangle2 -= '#') {
+    console.log(triangle2);   //second section doesnt work
+}
 
 // does not work
 
