@@ -24,10 +24,3 @@
 //     console.log(triangle);
 // }
 
-if ((triangle = '#', triangle <= '####', triangle += '#'));
-    // else if 
-    //     (triangle >= '####', triangle -= '#'); 
-        {
-        console.log(triangle); 
-     }
-
