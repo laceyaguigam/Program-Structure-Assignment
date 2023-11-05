@@ -31,6 +31,9 @@ for (let i = 1; i < 101; i++) {
     else if (i % 5) {
         console.log('Buzz');
     }
+    else if (i % 3 && i % 5) {
+        console.log('Fizzbuzz');
+    }
 }
 
 
