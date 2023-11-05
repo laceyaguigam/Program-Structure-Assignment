@@ -20,7 +20,7 @@
 
 
 
-// for (let triangle = '#'; triangle <= '####'; triangle += '#') {
-//     console.log(triangle);
-// }
+for (let triangle = '#'; triangle <= '####'; triangle += '#') {
+    console.log(triangle);
+}
 
