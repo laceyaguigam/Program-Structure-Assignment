@@ -20,9 +20,14 @@
 
 
 
-for (let triangle = '#'; triangle <= '####'; triangle += '#') {
-    console.log(triangle);
-}
+// for (let triangle = '#'; triangle <= '####'; triangle += '#') {
+//     console.log(triangle);
+// }
 
-
+if ((triangle = '#', triangle <= '####', triangle += '#'));
+    // else if 
+    //     (triangle >= '####', triangle -= '#'); 
+        {
+        console.log(triangle); 
+     }
 
