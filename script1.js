@@ -17,9 +17,9 @@ for (let triangle = '#'; triangle <= '####'; triangle += '#') {
 }
 
 
-
-for (let triangle2 = '###'; triangle2 <= '####'; triangle2 -= '#') {
-    console.log(triangle2);   //second section doesn't work
+//second section doesn't work, only produces the first line 
+for (let triangle2 = '###'; triangle2 < '####'; triangle2 -= '#') {
+    console.log(triangle2);   
 }
 
 
