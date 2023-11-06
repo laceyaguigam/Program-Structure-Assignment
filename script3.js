@@ -15,3 +15,7 @@
 
 let grid = 8;
 let board = " ";
+
+for (i = 0; i < grid; i++) {  //for the length, add one more spot until reaches 8 spaces
+
+}
