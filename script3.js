@@ -22,3 +22,6 @@ for (i = 0; i < grid; i++) {  //for the length, add one more spot until reaches 
     }
 }
 console.log()
+
+//need to add /n to separate each row
+// also need to use %2 to test the position on the board 
