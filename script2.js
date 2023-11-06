@@ -15,15 +15,8 @@
 // ...
 
 
-// print 1-100
 
-// let i = 1
-
-// while (i <= 100) {
-//     console.log(i);
-//     i++;
-// }
-
+//works, however does not produce 'fizzbuzz'
 for (let i = 1; i < 101; i++) {
     if (i % 3 == 0) {
         console.log('Fizz');
