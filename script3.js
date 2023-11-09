@@ -13,18 +13,16 @@
 //  # # # #
 
 
-let grid = 8;
-let board = " ";
+let pattern1= "# # # # "
+let pattern2 =" # # # # "
 
-for (i = 0; i < grid; i++) {  //for the length, add one more spot until reaches 8 spaces
-    for (x = 0; x < board; x++) {  //fills the inside of the board 
-
+for (let i = 1; i <= 8; i++) {
+    if (1 %2  == 0) {
+        console.log(pattern1)
+    } else {
+        console.log(pattern2)
     }
-}
-console.log()
-
-//need to add /n to separate each row
-// also need to use %2 to test the position on the board 
+} 
 
 
 

@@ -16,7 +16,7 @@
 
 
 
-//works, however does not produce 'fizzbuzz'
+
 
 for (let i = 1; i < 101; i++) {
     if (i % 3 == 0 && i % 5 == 0) {
@@ -54,14 +54,6 @@ steps:
 1. for loop increase
 2. loop 100 times 
 3. needs to be divisible by 3, 5, and both 3 and 5, if not then output the number
-
-
-
-
-
-
-
-
 
 
 
