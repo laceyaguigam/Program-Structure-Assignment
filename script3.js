@@ -13,16 +13,17 @@
 //  # # # #
 
 
-let pattern1= "# # # # "
-let pattern2 =" # # # # "
+let pattern1 = "# # # # ";
+let pattern2 = " # # # # ";
 
 for (let i = 1; i <= 8; i++) {
-    if (1 %2  == 0) {
+    if (1 % 2  == 0) {
         console.log(pattern1)
     } else {
         console.log(pattern2)
     }
-} 
+};
+
 
 
 
@@ -37,13 +38,13 @@ correct answer
 
 
 let pattern1= "# # # # "
-let pattern2 =" # # # #"
+let pattern2 =" # # # # "
 
 for (let i = 1; i <= 8; i++) {
     if (1 %2  == 0) {
         console.log(patter1)
     } else {
-        console.log(patern2)
+        console.log(pattern2)
     }
 }
 
