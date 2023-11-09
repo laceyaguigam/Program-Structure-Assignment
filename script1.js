@@ -11,16 +11,23 @@
 
 
 
-// This statement works 
-for (let triangle = '#'; triangle <= '####'; triangle += '#') {
-    console.log(triangle);
+
+let outputString = "#"
+
+for (let x = 1; x < 5; x++) {
+    console.log(outputString);
+    outputString += "#"  //same as outputString + "#"
+}
+
+for (let x=4; x > 1; x--) {  //same as x = x-1
+    outputString = outputString.substring(0, x-1); //(index start, index end) cant use negative number because it will throw it out of bounds 
+    //parses the string and then outputs it, it removes 1 each time it loops 
+    console.log(outputString);
 }
 
 
-//second section doesn't work, only produces the first line 
-for (let triangle2 = '###'; triangle2 < '####'; triangle2 -= '#') {
-    console.log(triangle2);   
-}
+
+
 
 
 
