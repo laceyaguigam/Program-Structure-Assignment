@@ -31,11 +31,6 @@ console.log()
 
 
 
-
-
-
-
-
                             // class notes, review
 
 
